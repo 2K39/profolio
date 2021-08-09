@@ -19,11 +19,11 @@ export default function Contact() {
                 If you want to have a similar looking website,
                 I can make it for a symbolic amount
             </h2>  
-        </Fade>
+    
 
         <br/><br/>
 
-<Fade bottom>  
+
     <h2 className="text-justify">
         <i class="bi bi-telephone"/> +973 32216811 
     </h2> 
