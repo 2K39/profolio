@@ -37,6 +37,15 @@ export default function Contact() {
     </Fade>
     </div>
 </Row>
+<div>
+<Fade bottom>
+   <h3 className="text-center font-weight-light text-muted">
+       <small>
+          ©2021 by ahmed yousif khamdan 
+       </small>
+    </h3>
+</Fade>  
+</div>
 </Container>
 
     )

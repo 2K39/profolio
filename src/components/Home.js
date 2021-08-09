@@ -26,27 +26,8 @@ return (
     </a> 
           </div>
       </div>
-  </Fade>
-
- 
-     
+  </Fade> 
       </Col> 
-      {/* <Fade>
-    <div style={{ position:'absolute',right:'50%' }}> 
-      <div style={{position:'relative',right:'-50%',top:'-100px' }} >
-          <i className="bi text-center  display-4 bi-chevron-compact-down text-dark"/>
-      </div>
-    </div>
-  </Fade> */}
-
-  {/* <Fade>
-    <div style={{ position:'absolute',bottom:'10px' }}> 
-          <i className="bi text-center  display-4 bi-chevron-compact-down text-dark"/>
-      </div>
-  </Fade> */}
-
-
-
     </Row>  
   </Container>
 
