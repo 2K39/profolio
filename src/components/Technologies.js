@@ -11,7 +11,7 @@ export default function Technologies() {
                 {name}
             </Card.Title>
             <div>
-                <Card.Img src={photo}/>
+                <Card.Img style={{backgroundColor:'white'}} src={photo}/>
             </div>
         </Card>
     </Col>
@@ -25,11 +25,13 @@ export default function Technologies() {
         </Row>
         <br/><br/>
     <Row lg={3} sm={1} xs={1} className="display-4 justify-content-around" >
+
     <Fade left>
-        <Tech name="React" style={{justifyContent: 'stretch'    }} photo={react}/>
+        <Tech name="React" photo={react}/>
     </Fade>
+
     <Fade right>
-    <Tech name="Bootstrap" photo={bootstrap}/>
+        <Tech name="Bootstrap" photo={bootstrap}/>
     </Fade>
         </Row>
       </Container>
