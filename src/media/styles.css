@@ -1,21 +1,12 @@
+*{
+    border-radius: 0 !important;
+}
+
 html{
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
 }
 
-body{
-    background-color:#4CD7D0;
-  
-
-}
 .parent{
     scroll-snap-type: y mandatory;
 }
-
-/* .snap{
-    scroll-snap-align: start;
-} */
-*{
-    color:white;
-}
-
