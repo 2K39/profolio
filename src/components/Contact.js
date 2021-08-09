@@ -20,9 +20,10 @@ export default function Contact() {
 
         
         <h2 class="display-6" style={{textAlign:'center'}}>If you want to have a similar looking website, I can make it for a symbolic amount </h2>  
-        <br/>
-        <h2 style={{textAlign:'center'}}><i class="bi bi-telephone"></i> 32216811 </h2>   
-    <Button variant="outline-success" href='https://wa.me/97332216811'>
+        <br/><br/>
+        <h2 style={{textAlign:'center'}}><i class="bi bi-telephone"></i> 32216811 </h2> 
+      
+    <Button variant="outline-dark" href='https://wa.me/97332216811'>
         <i class="bi bi-whatsapp"/> Text me in whatsapp 
     </Button>
     </div>

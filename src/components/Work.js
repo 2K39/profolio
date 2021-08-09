@@ -16,7 +16,7 @@ React.useEffect(() => {
 
     return(
     <Col>
-    <Card bg="light"   className="m-3">
+    <Card bg="transparent"   className="m-3">
        <Card.Img className="d-block  w-100" variant="top" src={photo}/>
        <Card.Body>
            <Card.Title className="display-4 text-dark font-weight-bold" >{name}</Card.Title>
