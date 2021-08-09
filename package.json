@@ -15,14 +15,21 @@
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
+    "bootstrap": "^5.1.0",
     "css-loader": "^4.2.0",
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.3.0",
     "react": "^16.14.0",
+    "react-bootstrap": "^1.6.1",
     "react-dom": "^16.14.0",
+    "react-router-dom": "^5.2.0",
     "style-loader": "^1.2.1",
+    "typewriter-effect": "^2.18.0",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.3"
   }
 }
