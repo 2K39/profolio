@@ -19,7 +19,7 @@ return (
           </Fade>
   
   <Fade top>
-    <div style={{ position:'absolute',bottom:'10px', right:'50%' }}> 
+    <div className='jump' style={{ position:'absolute',bottom:'10px', right:'50%' }}> 
     <div style={{position:"relative", right:'-50%'}}>
     <a href="#work"> 
     <i className="bi text-center  display-4 bi-chevron-compact-down text-dark"/>
