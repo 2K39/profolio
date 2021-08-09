@@ -15,7 +15,7 @@ export default function Contact() {
     <div style={{display:'grid',placeItems:'center'}}>
 
 <Fade bottom>     
-        <h2 class="display-6" style={{textAlign:'center'}}>
+        <h2 class="display-4" style={{textAlign:'center'}}>
             If you want to have a similar looking website,
              I can make it for a symbolic amount
         </h2>  
