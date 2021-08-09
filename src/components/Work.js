@@ -13,47 +13,53 @@ export default function Work() {
     return(
         <Fade left>
     <Col>
-        <Card bg="transparent" className="m-3 border-0">
+        <Card bg="transparent" className="m-3">
+            <Row xl={2} lg={2} md={2} sm={1}>
+           <Col>
+                <Card.Img src={photo}/> 
+            </Col>
 
-            <Card.Img src={photo}/>
-            <Card.Body className="border">
-                <Card.Title className="display-4">
+            <Col>
+            <Card.Body >
+                <Card.Title className="display-6">
                     {name}
                 </Card.Title>
 
-                <Card.Text as="h3" className="text-muted font-weight-light">
+                <Card.Text as="h4" className="text-muted font-weight-light">
                     {description}
                 </Card.Text>
-
-                <Button variant="outline-dark" href={link}>
-                    visit website
-                </Button>
-
-            </Card.Body>
+                <Button variant="outline-dark" style={{bottom:'0px'}} href={link}>
+                        visit website
+                    </Button>
+            </Card.Body>       
+      
+            </Col>
+            </Row>
         </Card>
     </Col>
     </Fade>
     )
 }
     return (
-    <Container id="work" style={{minHeight:'100vh',marginBottom:'200px'}}>
+    <Container id="work" style={{minHeight:'80vh',marginBottom:'200px'}}>
         <Row>
-            <h2 className="display-1">
+            <h2 className="display-2">
                 My work <i class="bi bi-cursor text-dark"></i>
             </h2>     
         </Row>
         
-        <Row lg={2} sm={1} xs={1}>  
+        <Row xl={2} lg={2} sm={1} xs={1} className="justify-content-around">  
             <Card_ name="Mesbah"
                 photo={mesbah_logo}
                 description="Tasbeeh counter"
                 link="https://mesbah.netlify.app/"/>
-
-            <Card_ name="Alquran-alkareem"
-                photo={quran}
-                description="A site for listing to quran"
-                link="https://alquran-alkareem.netlify.app/"/>
-        </Row>
+   </Row>
+   <Row xl={2} lg={2} sm={1} xs={1} className="justify-content-around">
+        <Card_ name="Alquran-alkareem"
+            photo={quran}
+            description="A site for listing to quran"
+            link="https://alquran-alkareem.netlify.app/"/>
+     </Row>
     </Container> 
     )
 }
