@@ -48,13 +48,13 @@ export default function Work() {
             </h2>     
         </Row>
         
-        <Row xl={2} lg={2} sm={1} xs={1} className="justify-content-around">  
+        <Row xl={2} lg={2} md={2} sm={1} xs={1} className="justify-content-around">  
             <Card_ name="Mesbah"
                 photo={mesbah_logo}
                 description="Tasbeeh counter"
                 link="https://mesbah.netlify.app/"/>
    </Row>
-   <Row xl={2} lg={2} sm={1} xs={1} className="justify-content-around">
+   <Row xl={2} lg={2} md={2} sm={1} xs={1} className="justify-content-around">
         <Card_ name="Alquran-alkareem"
             photo={quran}
             description="A site for listing to quran"
