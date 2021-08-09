@@ -1,7 +1,8 @@
 import React from 'react'
 import {Container , Button , Badge , Row , Col, Card } from 'react-bootstrap'
-import bootstrap from '../media/bootstrap_plain_logo_icon_146619.png' 
-
+import bootstrap from '../media/bootstrap.svg' 
+import react from '../media/react-logo.svg'  
+import Fade from 'react-reveal/Fade';
 export default function Technologies() {
     let Tech = ({name, photo}) => (
     //     <Row className="w-75">
@@ -11,14 +12,16 @@ export default function Technologies() {
     //     </div>
     // </Row>
     <Col>
-    <Card className="mt-3 mb-3" className="border-0">
-        <Card.Title className="text-dark bolder text-center display-5">
-            {name}
-        </Card.Title>
-        <div>
-            <Card.Img src={photo}/>
-        </div>
-    </Card>
+ 
+        <Card className="mt-3 mb-3" className="border-0">
+            <Card.Title className="text-dark bolder text-center display-5">
+                {name}
+            </Card.Title>
+            <div>
+                <Card.Img src={photo}/>
+            </div>
+        </Card>
+
     </Col>
     )
     return (
@@ -31,10 +34,12 @@ export default function Technologies() {
         </Row>
         <br/><br/>
     <Row lg={3} sm={1} xs={1} className="display-4 justify-content-around" >
-        
-    <Tech name="React" style={{justifyContent: 'stretch'    }} photo="https://logos-download.com/wp-content/uploads/2016/09/React_logo_logotype_emblem-700x626.png"/>
+    <Fade left>
+        <Tech name="React" style={{justifyContent: 'stretch'    }} photo={react}/>
+    </Fade>
+    <Fade right>
     <Tech name="Bootstrap" photo={bootstrap}/>
-
+    </Fade>
         </Row>
       </Container>
     )

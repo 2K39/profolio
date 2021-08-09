@@ -6,6 +6,7 @@ import Technologies  from './Technologies'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../media/styles.css'
 
+
 function App(){
   return(
     <>
