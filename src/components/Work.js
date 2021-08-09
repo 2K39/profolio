@@ -14,7 +14,7 @@ export default function Work() {
         <Fade left>
     <Col>
         <Card bg="transparent" className="m-3">
-            <Row xl={2} lg={2} md={2} sm={1}>
+            <Row xl={2} lg={2} md={1} sm={1} xs={1}>
            <Col>
                 <Card.Img src={photo}/> 
             </Col>
