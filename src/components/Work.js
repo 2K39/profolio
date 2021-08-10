@@ -63,5 +63,3 @@ export default function Work() {
     </Container> 
     )
 }
-
-// dom.map((x) =><Card photo={x.photo} name={x.name} link={x.link} description={x.description}/> )

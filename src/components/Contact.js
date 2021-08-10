@@ -10,11 +10,11 @@ export default function Contact() {
         Contact <i class="bi bi-chat-text text-dark" />
     </h2>   
 </Row>
-
+<Fade bottom> 
 <Row className="h-100"  style={{display:'grid',placeItems:'center'}}>
 
     <div style={{display:'grid',placeItems:'center'}}>
-        <Fade bottom>  
+         
             <h2 class="display-3" style={{textAlign:'center'}}>
                 If you want to have a similar looking website,
                 I can make it for a symbolic amount
@@ -36,11 +36,11 @@ export default function Contact() {
         <i class="bi bi-whatsapp"/> Text me in whatsapp 
     </Button>
 
-    </Fade>
+
     </div>
 </Row>
-
-    <Fade bottom>
+</Fade> 
+ <Fade bottom>
         <h3 className="text-center font-weight-light text-muted">
             <small>
                 ©2021 by ahmed yousif
@@ -49,8 +49,7 @@ export default function Contact() {
          
         </h3>
         <br/>
-    </Fade>  
-
+</Fade>
 </Container>
     )
 }
